@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YHNetwork_Example' do
+  pod 'YHNetwork', :path => '../'
+
+  target 'YHNetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
