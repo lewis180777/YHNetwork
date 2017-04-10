@@ -8,17 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHNetwork'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YHNetwork.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '1.0.0'
+  s.summary          = 'YHNetwork 网络请求库.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+YHNetwork是本公司自己的网络请求库，根据需要封装的.
                        DESC
 
   s.homepage         = 'https://github.com/lewis180777/YHNetwork'
@@ -30,7 +24,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YHNetwork/Classes/**/*'
+  s.requires_arc  = true
+
+  s.source_files = 'YHNetwork/**/*'
   
   # s.resource_bundles = {
   #   'YHNetwork' => ['YHNetwork/Assets/*.png']
@@ -38,5 +34,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 3.1.0'
 end

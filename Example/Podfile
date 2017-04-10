@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'YHNetwork_Example' do
-  pod 'YHNetwork', :path => '../'
+  pod 'YHNetwork'
 
   target 'YHNetwork_Tests' do
     inherit! :search_paths

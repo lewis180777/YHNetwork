@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "YHNetwork.h"
+#import "YHNetworking.h"
 
 FOUNDATION_EXPORT double YHNetworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char YHNetworkVersionString[];

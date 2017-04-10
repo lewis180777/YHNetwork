@@ -1,16 +1,29 @@
 PODS:
-  - YHNetwork (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - YHNetwork (1.0.0):
+    - AFNetworking (~> 3.1.0)
 
 DEPENDENCIES:
-  - YHNetwork (from `../`)
-
-EXTERNAL SOURCES:
-  YHNetwork:
-    :path: ../
+  - YHNetwork
 
 SPEC CHECKSUMS:
-  YHNetwork: c71642d8093462f448ecfb687641012f042cbd93
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  YHNetwork: 4fec81add5ade346e102e75ed8939b9b6236c7d6
 
-PODFILE CHECKSUM: 96f76bf3da9b9af48e661238997db0223df0b658
+PODFILE CHECKSUM: ec5c8582e1de29152e0507b300f6b137e19efdc2
 
 COCOAPODS: 1.2.1.beta.1
