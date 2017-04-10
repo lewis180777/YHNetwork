@@ -1,0 +1,6 @@
+framework module Pods_YHNetwork_Tests {
+  umbrella header "Pods-YHNetwork_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

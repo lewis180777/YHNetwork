@@ -1,0 +1,16 @@
+PODS:
+  - YHNetwork (0.1.0)
+
+DEPENDENCIES:
+  - YHNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  YHNetwork:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YHNetwork: c71642d8093462f448ecfb687641012f042cbd93
+
+PODFILE CHECKSUM: 96f76bf3da9b9af48e661238997db0223df0b658
+
+COCOAPODS: 1.2.1.beta.1

@@ -1,0 +1,22 @@
+{
+  "name": "YHNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of YHNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lewis180777/YHNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lewis180777": "491099116@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lewis180777/YHNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YHNetwork/Classes/**/*"
+}
